@@ -1,5 +1,5 @@
 # model_data_for_neo4j
-This test create parse Uniprot XML data and model it for neo4j
+This test parse Uniprot XML data and model it for neo4j property graph
 
 # how to run the code
 1) Install neo4j on you local machine, you can use docker to run with following commands:
