@@ -10,7 +10,7 @@ This test parse Uniprot XML data and model it for neo4j property graph
   --volume=$HOME/neo4j/data:/data \
   --env NEO4J_AUTH=neo4j/neo4j123   neo4j
  ```
-2) In Jupyter copy and paste the code from file "Uniprot_XML_to_Neo4j.ipynb" and execute. This code will transform the XML data from file "uniprot.xml"  into neo4j property graph model. execute the CYPHER query and fetch the required results.
+2) In Jupyter copy and paste the code from file "Uniprot_XML_to_Neo4j.ipynb" and execute. This code will transform the XML data from file "uniprot.xml"  into neo4j property graph model. You can execute the CYPHER query either from code or in Neo4j db interface to fetch and visualize data.
 
 
 # Example: data model
